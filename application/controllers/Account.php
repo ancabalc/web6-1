@@ -5,6 +5,9 @@ class Account extends CI_Controller {
     
     function create() {
         
+        $this->load->model('usersmodel');
+        //$this->UsersModel->
+        
         $data['title'] = "CREATE ACCOUNT";
         $data['pageContent'] = "createview.php";
         $this->load->view('layout', $data);  
