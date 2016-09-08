@@ -1,4 +1,3 @@
-
 <h1>Create account page</h1>
 
 <form id='register' name="register-form"
