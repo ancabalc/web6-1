@@ -75,8 +75,8 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => '',
+	'hostname' => getenv('IP'),
+	'username' => getenv('C9_USER'),
 	'password' => '',
 	'database' => 'webapp',
 	'dbdriver' => 'mysqli',
