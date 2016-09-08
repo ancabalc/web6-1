@@ -76,10 +76,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'MySQL_HOST',
-	'username' => 'MySQL_USER',
-	'password' => 'MySQL_PASSWORD',
-	'database' => 'MySQL_DB_NAME',
+	'hostname' => getenv('IP'),
+	'username' => getenv('C9_USER'),
+	'password' => '',
+	'database' => 'webapp',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
