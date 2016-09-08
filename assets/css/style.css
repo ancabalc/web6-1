@@ -1,0 +1,48 @@
+
+
+
+form, #register {
+	width: 400px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.modal-body{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.input-div label, .input-div input, .input-div span{
+	display:inline-table;	
+}
+
+input {
+	width: 100%;
+	heigth: 30px;
+	margin: 3px 0;
+}
+
+.form-label {
+	margin: 5px 0 0 2px;
+	float: left;
+}
+
+.invalid-data {
+	border: 2px solid #ff4d4d;
+	background-color: #ffe6e6;
+}
+
+.form-body {
+	box-sizing: border-box;
+	padding: 0 30px
+}
+
+.span-requested {
+	color: #ff4d4d;
+	float: left;
+
+}
+
+.invisible{
+	display: none;
+}
