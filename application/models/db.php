@@ -3,7 +3,7 @@
 // Set DB configs
     define("MySQL_USER", getenv('C9_USER'));
     define("MySQL_PASSWORD", "");
-    define("MySQL_DB_NAME", "db");
+    define("MySQL_DB_NAME", "webapp");
     define("MySQL_HOST", getenv('IP'));
 
     class DB {
