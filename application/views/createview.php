@@ -11,36 +11,36 @@
 		<div class="modal-body">
 
 			<div id='name-input-div' class="row input-div">
-				<label class="form-label">Full Name*: </label> 
-				<input type='text'
-					name='name' id='name' maxlength="50" />
+				<label class="form-label">Full Name*: </label> <input type='text'
+					class="form-control" name='name' id='name' maxlength="50" /> <span
+					class='invisible'>This field is requested!*</span>
 			</div>
-
 			<div id='localitate-input-div' class="row input-div">
-				<label class="form-label">Localitate*: </label> 
-				<input
-					type='text' name='localitate' id='localitate' maxlength="50" />
+				<label class="form-label">Localitate*: </label> <input type='text'
+					class="form-control" name='localitate' id='localitate'
+					maxlength="50" /> <span class='invisible'>This field is requested!*</span>
 			</div>
-
 			<div id='email-input-div' class="row input-div">
-				<label class="form-label">Email Address*: </label> 
-				<input
-					type='text' name='email' id='email' maxlength="50" />
+				<label class="form-label">Email Address*: </label> <input
+					type='text' class="form-control" name='email' id='email'
+					maxlength="50" /> <span class='invisible'>Please enter a valid
+					email address!*</span>
 			</div>
-
 			<div id='password-input-div' class="row input-div">
-				<label class="form-label">Password*: </label> 
-				<input type='password'
-					name='password' id='password1'
-					maxlength="50" />
+				<label class="form-label">Password*: </label> <input type='password'
+					class="form-control" name='password' id='password1' maxlength="50" />
+				<span class='invisible'>Requested password is unauthorised!*</span>
+			</div>
+			<div id='re-password-input-div' class="row input-div">
+				<label class="form-label">Confirm Password*: </label> <input
+					type='password' class="form-control" name='re-password'
+					id='re-password' maxlength="50" /> <span class='invisible'>Your
+					passwords do not match!*</span>
 			</div>
 
-			<div id='re-password-input-div' class="row input-div">
-				<label class="form-label">Confirm Password*: </label> 
-				<input
-					type='password' name='re-password' id='re-password'
-					maxlength="50" />
-			</div>
+
+
+
 		</div>
 		<div class="modal-footer">
 			<button type="submit" class="btn btn-primary">Send</button>
@@ -49,7 +49,7 @@
 </form>
 
 <!-- Facebook login button start -->
-<div id="fb-root"></div> 
+<div id="fb-root"></div>
 <script>
     (function (d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
@@ -62,7 +62,8 @@
     }(document, 'script', 'facebook-jssdk'));
 </script>
 
-<div class="fb-login-button" data-max-rows="1" data-size="large" data-show-faces="false" data-auto-logout-link="true"></div>
+<div class="fb-login-button" data-max-rows="1" data-size="large"
+	data-show-faces="false" data-auto-logout-link="true"></div>
 
 <!-- Facebook login button finish -->
 
