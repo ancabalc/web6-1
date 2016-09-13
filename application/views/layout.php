@@ -10,7 +10,7 @@
 
 <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>        
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="http://localhost/web6-1/assets/js/functions.js" type="text/javascript"></script>	
+<script src="<?php echo base_url(); ?>/assets/js/functions.js" type="text/javascript"></script>	
 </head>
     <body>
         <header>

@@ -5,10 +5,9 @@ class Account extends CI_Controller {
     
     function create() {
 
-        require APPPATH.'models/usersmodel.php';
+        // require APPPATH.'models/usersmodel.php';
+        // $usersModels = new UsersModel();
         
-        $this->load->model('usersmodel');
-        //$this->UsersModel->
         
         $data['title'] = "CREATE ACCOUNT";
         $data['pageContent'] = "createview.php";

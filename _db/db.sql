@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 --
 -- Database: `db`
 --
-CREATE DATABASE webapp
+CREATE DATABASE webapp_services;
 
 -- --------------------------------------------------------
 
