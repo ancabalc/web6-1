@@ -51,7 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'welcome';
 $route['create'] = 'account/create';
-
+$route['app/create'] = 'application/create';
 
 $route['logintrala'] = 'login/logintemp';
 

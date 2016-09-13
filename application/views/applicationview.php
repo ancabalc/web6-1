@@ -1,4 +1,5 @@
-<h1>Create account page</h1>
+<div class="container">
+<h1>Create application page</h1>
 
 <form id='application' name="application-form"
 	onsubmit='validateForm(); return false' action='application' method='post'
@@ -16,16 +17,21 @@
 					name='name' id='name' maxlength="50" />
 			</div>
 
-			<div id='localitate-input-div' class="row input-div">
-				<label class="form-label">Localitate*: </label> 
-				<input
-					type='text' name='localitate' id='localitate' maxlength="50" />
+			<div id='categories-input-div' class="row input-div">
+				<label for='categories-form[]'>Categorie</label>
+				<select name="categories-form[]">
+				<?php if (isset($categories)) {
+					 for($i=0; $i < count($categories); $i++) { ?>
+					    <option value="<?php echo $categories[$i]["id"] ?>"><?php echo $categories[$i]["title"] ?></option>  
+					 <?php   }
+					 }
+				?>
+				</select>
 			</div>
 
 			<div id='email-input-div' class="row input-div">
 				<label class="form-label">Descriere cerere*: </label> 
-				<input 
-					type='textarea' name='description' maxlength="5000" />
+				<textarea name='description' maxlength="50000"></textarea>
 			</div>
             <div>
                 <input 
@@ -37,3 +43,4 @@
 		</div>
 	</div>
 </form>
+</div>
