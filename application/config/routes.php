@@ -53,7 +53,7 @@ $route['default_controller'] = 'welcome';
 $route['create'] = 'account/create';
 $route['app/create'] = 'application/create';
 
-$route['logintrala'] = 'login/logintemp';
+$route['applications'] = 'requests/getall';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
