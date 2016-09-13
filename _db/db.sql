@@ -86,6 +86,8 @@ CREATE TABLE IF NOT EXISTS `users` (
   `email` varchar(255) NOT NULL,
   `password` varchar(255) DEFAULT NULL,
   `role` enum('provider','client') DEFAULT NULL,
+  `description` text DEFAULT NULL,
+  `picture` longblob DEFAUL NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `email` (`email`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
