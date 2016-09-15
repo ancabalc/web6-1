@@ -1,5 +1,5 @@
 <div class="container">
-<h1>Create application page</h1>
+<!--<h1>Create application page</h1>-->
 
 <form id='application' name="application-form"
 	onsubmit='validateForm(); return false' action='application' method='post'
@@ -12,13 +12,13 @@
 		<div class="modal-body">
 
 			<div id='name-input-div' class="row input-div">
-				<label class="form-label">Sumar cerere*: </label> 
+				<!--<label class="form-label">Sumar cerere*: </label> -->
 				<input type='text'
-					name='name' id='name' maxlength="50" />
+					name='name' id='name' maxlength="50" placeholder="Sumar cerere*"/>
 			</div>
 
 			<div id='categories-input-div' class="row input-div">
-				<label for='categories-form[]'>Categorie</label>
+				<label for='categories-form[]'>Categorie: </label>
 				<select name="categories-form[]">
 				<?php if (isset($categories)) {
 					 for($i=0; $i < count($categories); $i++) { ?>

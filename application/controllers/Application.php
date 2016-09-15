@@ -4,8 +4,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Application extends CI_Controller {
     
     function create() {
-
-       $application = $applicationModel->addApplication($_POST);        
+    
+        // require APPPATH.'models/applicationmodel.php';
+        // $applicationModel = new ApplicationModel();
+        // $application = $applicationModel->addApplication($_POST);        
         
         $data['title'] = "CREATE APPLICATION";
         $data['pageContent'] = "applicationview.php";
