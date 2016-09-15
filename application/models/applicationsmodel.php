@@ -11,7 +11,7 @@ class ApplicationsModel extends DB{
     $sth->execute();
     
     return $sth->fetchAll(PDO::FETCH_ASSOC);
-
+    
   }
     
 }//class end

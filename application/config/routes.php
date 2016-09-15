@@ -52,8 +52,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'home';
 $route['create'] = 'account/create';
 $route['app/create'] = 'application/create';
+$route['app/add'] = 'application/add';
 
-$route['applications'] = 'requests/getall';
+// $route['applications'] = 'requests/getall';
+$route['provider'] = 'provider';
+$route['provider/upload'] = 'provider/do_upload';
+
+$route['applications'] = 'requests/index';
+$route['applications/list'] = 'requests/getAll';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

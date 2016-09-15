@@ -11,7 +11,7 @@
 	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
 	crossorigin="anonymous">
 <link rel="stylesheet"
-	href="http://localhost/web6-1/assets/css/style.css">
+	href="<?php echo base_url(); ?>/assets/css/style.css">
 
 <script src="https://code.jquery.com/jquery-3.1.0.js"
 	integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="
@@ -21,6 +21,9 @@
 	integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 	crossorigin="anonymous"></script>
 <script src="<?php echo base_url(); ?>/assets/js/functions.js"
+	type="text/javascript"></script>
+	
+<script src="<?php echo base_url(); ?>/assets/js/main.js"
 	type="text/javascript"></script>
 </head>
 <body>

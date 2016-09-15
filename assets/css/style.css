@@ -1,6 +1,6 @@
 form, #register {
 	width: 400px;
-	text-align: center;
+	/*text-align: center;*/
 	margin: 0 auto;
 }
 
@@ -9,14 +9,35 @@ form, #register {
 	margin: 0 auto;
 }
 
-.input-div label, .input-div input, .input-div span {
-	display: inline-table;
+.checkbox-div {
+	display:inline-block;
+}
+
+.checkbox-publica {
+	display: inline-block;
+	vertical-align: baseline;
+	margin-left: 7px;
+}
+
+.btn-primary {
+	background-color: red;
+}
+
+.input-div label, .input-div input, .input-div span{
+	display:inline-table;	
 }
 
 input {
-	width: 100%;
-	heigth: 30px;
 	margin: 3px 0;
+}
+
+input[type=text], input[type=password] {
+	width: 100%;
+	height: 30px;
+}
+
+textarea {
+	width: 100%;
 }
 
 .form-label {
@@ -64,6 +85,14 @@ input {
 }
 
 
+body .modal-content {
+  width: 90%; /* desired relative width */
+  left: 5%; /* (100%-width)/2 */
+  /* place center */
+  margin-left:auto;
+  margin-right:auto; 
+}
+
 .thumbnail>img {
 	margin-right: auto;
 	margin-left: auto;
@@ -76,10 +105,10 @@ input {
 }
 
 .footer {
-	clear: both;
-	text-align: center;
-	background-color: lightgray;
-	height: 200px;
+    clear: both;
+    text-align: center;
+    background-color: lightgray;
+    height: 200px;
 }
 
 .cover-img {
@@ -110,3 +139,16 @@ input {
 	margin:0;
 height:40px;
 }
+
+
+/* applications */
+.panel-title{
+	background:#65ae96;
+	padding:10px;
+}
+
+.prov-info {
+	display: inline;
+
+}
+
