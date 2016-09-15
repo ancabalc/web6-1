@@ -61,7 +61,13 @@ input {
 	float:right;
 }
 
-
+body .modal-content {
+  width: 90%; /* desired relative width */
+  left: 5%; /* (100%-width)/2 */
+  /* place center */
+  margin-left:auto;
+  margin-right:auto; 
+}
 
 .thumbnail>img {
     margin-right: auto;
