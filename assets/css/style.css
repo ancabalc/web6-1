@@ -81,3 +81,8 @@ input {
     background-color: lightgray;
     height: 200px;
 }
+
+
+.prov-info {
+	display: inline;
+}
