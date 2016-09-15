@@ -23,4 +23,10 @@ class Application extends CI_Controller {
         return $categoriesModel->getCategories();
         
     }
+    
+    function addApplication(){
+        $articlesModel = new ArticlesModel();
+        $result = $articlesModel->addApplication($_POST);
+        sendResponseToJSON(array("result"=>$result));
+    }
 }

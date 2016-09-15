@@ -6,9 +6,9 @@
 	accept-charset='UTF-8'>
 
 	<div class="modal-content">
-		<div class="modal-header">
+		<!--<div class="modal-header">-->
 		
-		</div>
+		<!--</div>-->
 		<div class="modal-body">
 
 			<div id='name-input-div' class="row input-div">
@@ -16,9 +16,9 @@
 				<input type='text'
 					name='name' id='name' maxlength="50" placeholder="Sumar cerere*"/>
 			</div>
-
+			</br>
 			<div id='categories-input-div' class="row input-div">
-				<label for='categories-form[]'>Categorie: </label>
+				<!--<label for='categories-form[]'>Categorie: </label>-->
 				<select name="categories-form[]">
 				<?php if (isset($categories)) {
 					 for($i=0; $i < count($categories); $i++) { ?>
@@ -28,18 +28,18 @@
 				?>
 				</select>
 			</div>
-
+			</br>
 			<div id='email-input-div' class="row input-div">
-				<label class="form-label">Descriere cerere*: </label> 
-				<textarea name='description' maxlength="50000"></textarea>
+				<!--<label class="form-label">Descriere cerere*: </label> -->
+				<textarea rows="4" cols="43" name='description' maxlength="50000" placeholder="Descriere cerere*"></textarea>
 			</div>
-            <div>
-                <input 
-                    type="checkbox" name="publica" value="">Publica
+			
+            <div class="checkbox-div">
+                <input type="checkbox" name="publica" value=""/><span class="checkbox-publica">Publica</span></input>
             </div>
 		</div>
 		<div class="modal-footer">
-			<button type="submit" class="btn btn-primary">Creeaza cerere</button>
+			<button type="submit" class="btn btn-primary" id="app-submit">Creeaza cerere</button>
 		</div>
 	</div>
 </form>

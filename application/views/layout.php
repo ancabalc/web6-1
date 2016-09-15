@@ -22,6 +22,8 @@
 	crossorigin="anonymous"></script>
 <script src="<?php echo base_url(); ?>/assets/js/functions.js"
 	type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>/assets/js/main.js"
+	type="text/javascript"></script>
 </head>
 <body>
 
