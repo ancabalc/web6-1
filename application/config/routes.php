@@ -55,6 +55,8 @@ $route['app/create'] = 'application/create';
 $route['app/add'] = 'application/add';
 
 $route['applications'] = 'requests/getall';
+$route['provider'] = 'provider';
+$route['provider/upload'] = 'provider/do_upload';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
