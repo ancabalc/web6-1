@@ -45,3 +45,39 @@ input {
 .invisible{
 	display: none;
 }
+
+.container{
+	width:960px;
+	margin:0 auto;	
+}
+
+.left-half-container{
+	width:480px;
+	float:left;
+}
+
+.right-half-container{
+	width:480px;
+	float:right;
+}
+
+
+
+.thumbnail>img {
+    margin-right: auto;
+    margin-left: auto;
+    width: 171px;
+    height: 180px;
+}
+
+.col-md-3 {
+    width: 240px;
+}
+
+
+.footer {
+    clear: both;
+    text-align: center;
+    background-color: lightgray;
+    height: 200px;
+}
