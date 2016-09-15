@@ -81,3 +81,9 @@ input {
     background-color: lightgray;
     height: 200px;
 }
+
+/* applications */
+.panel-title{
+	background:#65ae96;
+	padding:10px;
+}

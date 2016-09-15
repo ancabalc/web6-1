@@ -53,7 +53,8 @@ $route['default_controller'] = 'home';
 $route['create'] = 'account/create';
 $route['app/create'] = 'application/create';
 
-$route['applications'] = 'requests/getall';
+$route['applications'] = 'requests/index';
+$route['applications/list'] = 'requests/getAll';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

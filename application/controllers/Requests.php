@@ -9,9 +9,9 @@ require APPPATH.'models/applicationsmodel.php';
      
      function index(){
          
-         $title = "Application";
-         $pageContent = "applicationview.php";
-         $this->load->view('layout');
+         $data['title'] = "Applications";
+         $data['pageContent'] = "applicationview.php";
+         $this->load->view('layout', $data);
      }
      function getAll(){
          
