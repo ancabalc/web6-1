@@ -20,7 +20,8 @@ function saveApp() {
 
 $(function(){
     $('#app-submit').on('click', function(){
-            saveApp();
+        $('#modalCreateApp').modal('hide');
+        saveApp();
     })
     
     // NAME, DESCRIPTION - VALIDATIONS

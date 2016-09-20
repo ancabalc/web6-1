@@ -52,7 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'home';
 $route['create'] = 'account/create';
 $route['app/create'] = 'application/create';
-$route['app/add'] = 'application/add';
+$route['app/add'] = 'application/addApplication';
 
 $route['applications'] = 'requests/getall';
 $route['provider'] = 'provider';
