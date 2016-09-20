@@ -1,12 +1,10 @@
-
-
 form, #register {
 	width: 400px;
 	/*text-align: center;*/
 	margin: 0 auto;
 }
 
-.modal-body{
+.modal-body {
 	width: 90%;
 	margin: 0 auto;
 }
@@ -65,27 +63,32 @@ textarea {
 .span-requested {
 	color: #ff4d4d;
 	float: left;
-
 }
 
-.invisible{
+.invisible {
 	display: none;
 }
 
-.container{
-	width:960px;
-	margin:0 auto;	
+.container {
+	width: 960px;
+	margin: 0 auto;
 }
 
-.left-half-container{
-	width:480px;
-	float:left;
+.left-half-container {
+	width: 720px;
+	float: left;
+	background-color: #e7e7e7;
+	padding: 15px 0;
+	margin: 0 auto;
 }
 
-.right-half-container{
-	width:480px;
-	float:right;
+.right-half-container {
+    width: 240px;
+    float: left;
+    background-color: lightgray;
+    padding: 30px;
 }
+
 
 body .modal-content {
   width: 90%; /* desired relative width */
@@ -96,16 +99,15 @@ body .modal-content {
 }
 
 .thumbnail>img {
-    margin-right: auto;
-    margin-left: auto;
-    width: 171px;
-    height: 180px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 171px;
+	height: 180px;
 }
 
 .col-md-3 {
-    width: 240px;
+	width: 240px;
 }
-
 
 .footer {
     clear: both;
@@ -114,7 +116,44 @@ body .modal-content {
     height: 200px;
 }
 
+.cover-img {
+	width: 100%;
+}
+
+.input-group {
+	display: inline-flex;
+	float: right;
+	position: relative;
+	top: 8em;
+	right: 8em;
+}
+
+.jumbotron {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.titlu-jumbotron{
+    display: inline;
+    padding-left: 30px;
+	    margin-top: 0px;
+    margin-bottom: -36px;
+}
+
+.input-group input, .input-group .selectpicker{
+	margin:0;
+height:40px;
+}
+
+
+/* applications */
+.panel-title{
+	background:#65ae96;
+	padding:10px;
+}
 
 .prov-info {
 	display: inline;
+
 }
+

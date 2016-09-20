@@ -43,6 +43,11 @@
 		</div>
 	</div>
 </form>
+<br><br>
 
 <div class="applications">
+	
 </div>
+
+<script src="<?php echo base_url(); ?>assets/js/applications.js"
+	type="text/javascript"></script>
