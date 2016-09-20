@@ -4,7 +4,7 @@ $(function(){
     console.log("salut");
     $.ajax({
         
-        url:"https://gitproject-mike2563.c9users.io/applications/list",
+        url: document.location.origin + "/applications/list",
         
         success: function(response){
             

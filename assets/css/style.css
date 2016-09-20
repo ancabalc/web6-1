@@ -1,16 +1,10 @@
 form, #register {
-	width: 400px;
-	/*text-align: center;*/
-	margin: 0 auto;
-}
-
-.modal-body {
-	width: 90%;
 	margin: 0 auto;
 }
 
 .checkbox-div {
 	display:inline-block;
+	line-height: 30px;
 }
 
 .checkbox-publica {
@@ -19,13 +13,26 @@ form, #register {
 	margin-left: 7px;
 }
 
-.modal-header{
+.header-text {
 	color: red;	
 	text-align: center;
 }
 
-.btn-primary {
-	background-color: red;
+.full-width {
+	margin-right: -15px;
+    margin-left: -15px;
+}
+
+.btn-submit-app {
+	width: 100%;
+    background-color: red;
+    padding: 0;
+}
+
+.btn-list {
+	border-color: red;
+	text-align: left;
+	padding: 0 15px;
 }
 
 .input-div label, .input-div input, .input-div span{

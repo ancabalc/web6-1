@@ -5,8 +5,8 @@ class Application extends CI_Controller {
     
     function create() {
     
-        // require APPPATH.'models/applicationmodel.php';
-        // $applicationModel = new ApplicationModel();
+        // require APPPATH.'models/applicationsmodel.php';
+        // $applicationModel = new ApplicationsModel();
         // $application = $applicationModel->addApplication($_POST);        
         
         $data['title'] = "CREATE APPLICATION";
@@ -24,9 +24,10 @@ class Application extends CI_Controller {
         
     }
     
-    function addApplication(){
-        $articlesModel = new ArticlesModel();
-        $result = $articlesModel->addApplication($_POST);
+    function addApplication() {
+        require APPPATH.'models/applicationsmodel.php';
+        $applicationModel = new ApplicationsModel();
+        $result = $applicationModel->addApplication($_POST);
         sendResponseToJSON(array("result"=>$result));
     }
 }

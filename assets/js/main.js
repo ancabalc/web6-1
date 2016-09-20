@@ -2,7 +2,16 @@
 
 function saveApp() {
     var dataForm = $('#application').serialize();
+    var publicaChecked = $('[name="active"]').is(':checked');  
     
+    if (publicaChecked) {
+        dataForm = dataForm + publicaChecked;
+    }
+    else {
+        dataForm = dataForm + '&publica=' + publicaChecked;
+    }
+    
+    console.log(dataForm);
     $.ajax({
         url: document.location.origin + "/app/add" ,
         method: 'POST',
@@ -19,9 +28,9 @@ function saveApp() {
 
 
 $(function(){
-    $('#app-submit').on('click', function(){
-        $('#modalCreateApp').modal('hide');
+    $('#app-submit').on('click', function(e){
         saveApp();
+        e.preventDefault();
     })
     
     // NAME, DESCRIPTION - VALIDATIONS
@@ -41,3 +50,12 @@ $(function(){
     })
     
 })
+
+// function getAll(){
+//     $.ajax({
+//         url:,
+//         method:,
+//         success:,
+//         error:,
+//     });
+// }
