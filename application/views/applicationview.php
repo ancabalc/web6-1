@@ -6,15 +6,7 @@
 	accept-charset='UTF-8'>
 
 	<div id="modalCreateApp" class="row">
-		<div class="col-md-4">
-			<div class="row">
-				<div class="col-md-7">
-					<button type="submit" class="btn btn-default btn-block btn-list">Creeaza cerere</button>
-					<button type="submit" class="btn btn-default btn-block btn-list">Lista cereri</button>
-				</div>
-				<div class="col-md-5"></div>
-			</div>
-		</div>
+		<div class="col-md-4"></div>
 		
 		<div class="col-md-4 form-group form-group-sm">
 			<div class="header-text">CREARE CERERE</div>

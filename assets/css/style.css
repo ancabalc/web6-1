@@ -30,9 +30,14 @@ form, #register {
 }
 
 .btn-list {
-	border-color: red;
+	border-color: red !important;
 	text-align: left;
 	padding: 0 15px;
+}
+
+
+.tab-content>.tab-pane {
+	display: block;
 }
 
 .input-div label, .input-div input, .input-div span{

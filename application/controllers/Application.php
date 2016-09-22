@@ -10,7 +10,7 @@ class Application extends CI_Controller {
         // $application = $applicationModel->addApplication($_POST);        
         
         $data['title'] = "CREATE APPLICATION";
-        $data['pageContent'] = "applicationview.php";
+        $data['pageContent'] = "tabsview.php";
         $data['categories'] = $this->getCategories();
         $this->load->view('layout', $data);  
     }
