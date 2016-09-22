@@ -1,3 +1,4 @@
+/*global $*/
 $(function(){
     
     (function getAll(){
@@ -11,21 +12,13 @@ $(function(){
             var content='';
             
             for(var i in response ){
-                // content += '<tr>';
-                // content += '<th> Title </th>';
-                // content += '<th> Description </th>';
-                // content += '<th> Category </th> </tr>';
-                // content += '<tr>';
-                // content += '<td>' + response[i].title +'</th>';
-                // content += '<td>' + response[i].description +'</th>';
-                // content += '<td>' + response[i].category_id +'</th></tr>';
+                
                 content += '<div class="panel panel-default">';
                 content +=  '<div class="panel-heading">';
                 content +=    '<h1 class="panel-title">'+response[i].title+'</h1>';
-                content +=    '<span>Category : '+ response[i].category_id +'</span>'
+                content +=    '<span>Category : '+ response[i].category_id +'</span>';
                 content +=  '</div>';
                 content +=  '<div class="panel-body">'+response[i].description+'</div>';
-                
                 content +='</div>';
             
             }
